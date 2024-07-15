@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Shopping for Women - Shop For Women Clothes, Shoes, Bags & More</title>
+        <link rel="shortcut icon" type="image/png" href="../Common Files/image/favicon.png">
+        <link rel="stylesheet" href="../Common Files/style.css">
+        <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+        <!-- MENU BAR -->
+        <header>
+                <div id="logo">
+                        <img src="../Common Files/image/myntra-removebg-preview.png" alt="brandLogo" id="landingPage">
+                </div>
+                <ul id="nav_bar">
+                        <li><a href="../Homepages/menHomePage.html">men</a></li>
+                        <li><a href="../Homepages/womenHomePage.html">women</a></li>
+                        <li><a href="../HomePages/Celebstyles.html">Celebstyles</a></li>
+                        <li><a href="../Homepages/homeLiving.html">home & living</a></li>
+                        <li><a href="#">beauty</a></li>
+                        <li id="studio"><a href="#">studio</a><span>new</span></li>
+                </ul>
+                <div id="search">
+                        <input type="text" id="search_bar" placeholder="Search for products, brands and more">
+                        <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+                </div>
+                <div id="right_icon">
+                        <div id="reggDropdown">
+                                <!-- DROPDOWN MENU TO BE CREATED FOR LOGIN AND SIGNUP -->
+                                <div id="drop">
+                                        <a href="../Profile/profile.html" class="dropList">login</a>
+                                        <a href="../Profile/signup.html" class="dropList">sign up</a>
+                                </div>
+
+                                <i class="fa-regular fa-user"></i>
+                                <span>profile</span>
+                        </div>
+                        <div>
+                                <i class="fa-regular fa-heart"></i>
+                                <span>wishlist</span>
+                        </div>
+                        <div>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>bag</span>
+                        </div>
+                </div>
+
+                <!-- TOGGLE MENU -->
+                <div id="toggle">
+                        <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
+                        <div id="myDropdown" class="dropdown-content">
+                                <div class="top">
+                                        <a href="menHomePage.html">men</a>
+                                        <a href="womenHomePage.html">women</a>
+                                        <a href="../HomePages/Celebstyles.html">Celebstyles</a>
+                                        <a href="homeLiving.html">home & living</a>
+                                        <a href="#">beauty</a>
+                                        <a href="#">studio</a>
+                                </div>
+                                <div class="bottom">
+                                        <i class="fa-regular fa-user fa_user" id="profile"></i>
+                                        <i class="fa-regular fa-heart fa_wishlist"></i>
+                                        <i class="fa-solid fa-bag-shopping fa_cart"></i>
+                                </div>
+                        </div>
+                </div>
+
+        </header>
+
+
+
+        <!-- CELEBRITY PROFILES DISPLAY -->
+        <h1 id="celeb_heading">Celebrity Styles</h1>
+        <div class="containers" id="containers">
+                <div class="celebrity-profile">
+                        <a href="#samantha">
+                                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU9gH_Bn9CN-eCIKmuKda183aJ11xtpzuOMH_ELCxAKL6eoDeQgiyBgMLkmvecscRMWwMY2Z66mkJYvAwaccoIWWdE6Sa2C7sxzHEbVwdA02nt4ca2yjo-zbgGabcfatSfcF4NxcP5hFox1gg3o-1u7p_-IXjr3iGdNFHuRs9kAmzYSOX6Znr0hdUFsjg/s775/samantha%20ruth%20prabhu.jpg"
+                                        alt="Samantha">
+                        </a>
+                        <h2>Samantha</h2>
+                </div>
+                <div class="celebrity-profile">
+                        <a href="#deepika">
+                                <img src="https://assets.vogue.in/photos/63a0f0c14c3a583aa2d783d5/master/pass/Deepika%20Padukone.jpg"
+                                        alt="Deepika Padukone">
+                        </a>
+                        <h2>Deepika Padukone</h2>
+                </div>
+                <div class="celebrity-profile">
+                        <a href="#priyanka">
+                                <img src="https://www.hawtcelebs.com/wp-content/uploads/2023/05/priyanka-chopra-at-a-photoshoot-may-2023-3.jpg"
+                                        alt="priyanka chopra">
+                        </a>
+                        <h2>priyanka chopra</h2>
+                </div>
+                <div class="celebrity-profile">
+                        <a href="#alia">
+                                <img src="https://www.masala.com/cloud/2022/12/15/7-times-Alia-Bhatt-served-sublime-beauty-moments-.jpg"
+                                        alt="Alia bhatt">
+                        </a>
+                        <h2>Alia bhatt</h2>
+                </div>
+                <div class="celebrity-profile">
+                        <a href="#jahnvi">
+                                <img src="https://photos.telugurajyam.com/wp-content/uploads/2023/03/Janhvi-Kapoor_2-768x767.jpg"
+                                        alt="Janhvi kapoor">
+                        </a>
+                        <h2>Janhvi kapoor</h2>
+                </div>
+                <div class="celebrity-profile">
+                        <a href="#katrina">
+                                <img src="https://superstarsbio.com/wp-content/uploads/2018/07/Katrina-Kaif-2.jpeg"
+                                        alt="Katrina kaif">
+                        </a>
+                        <h2>Katrina kaif</h2>
+                </div>
+                <div class="celebrity-profile forWeb">
+                        <a href="#khan">
+                                <img src="https://tse2.mm.bing.net/th?id=OIP.-6l70Y0ul81AbjztS6fymgHaEK&pid=Api&P=0&h=180"
+                                        alt="Shah rukh khan">
+                        </a>
+                        <h2>Shah rukh khan</h2>
+                </div>
+                <div class="celebrity-profile forWeb">
+                        <a href="#prabhas">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Q_aq3151_0Gt7aBpx5zWnOprkbeRCh2h0Iopcc4hnDr2b2q0udiAPFEq900DBN6SaHc&usqp=CAU"
+                                        alt="Prabhas">
+                        </a>
+                        <h2>Prabhas</h2>
+                </div>
+                <div class="celebrity-profile forWeb">
+                        <a href="#kapoor">
+                                <img src="https://images.hindustantimes.com/img/2024/07/08/1600x900/ranbir_1_1713331360780_1720412391809.jpg"
+                                        alt="Ranbir Kapoor">
+                        </a>
+                        <h2>Ranbir Kapoor</h2>
+                </div>
+                <div class="celebrity-profile forWeb">
+                        <a href="#varun">
+                                <img src="https://4.bp.blogspot.com/-_JoSz8iHAp8/XJmmUmFHT2I/AAAAAAAADm0/9XI0G_gb5wU5etHRLxY7Qf6wLagOv9tYgCLcBGAs/s1600/Varun%2BDhawan%2B%25285%2529.jpg"
+                                        alt="Varun Dhawan">
+                        </a>
+                        <h2>Varun Dhawan</h2>
+                </div>
+                <div class="celebrity-profile forWeb">
+                        <a href="#allu">
+                                <img src="https://www.tollywood.net/wp-content/uploads/2020/05/Allu-Arjun-back-for-Powerful-Combination.jpg"
+                                        alt="Allu Arjun">
+                        </a>
+                        <h2>Allu Arjun</h2>
+                </div>
+                <div class="celebrity-profile forWeb">
+                        <a href="#sahid">
+                                <img src="https://files.prokerala.com/images/1200/shahid-kapoor-6.jpg"
+                                        alt="Shahid kapoor">
+                        </a>
+                        <h2>Shahid kapoor</h2>
+                </div>
+        </div>
+
+
+
+
+        <!-- CATEGORIES DISPLAY 2 -->
+        <section class="samantha" id="samantha">
+                <h1 class="brand_heading">Samantha outfits</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_samantha.html"><img
+                                        src="../images/sam_2.jpg" alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_samantha.html"><img
+                                        src="../images/sam_3.jpg" alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_samantha.html"><img src="../images/s_3.jpg"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_samantha.html"><img src="../images/s_4.jpg"
+                                        alt="category4"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_samantha.html"><img
+                                        src="https://m.media-amazon.com/images/I/81un+srVOiL._AC_UY1100_.jpg"
+                                        alt="category5"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_samantha.html"><img
+                                        src="https://static.hindutamil.in/hindu/uploads/gallery-image/2023/10/26/3965/large/xyz16983250323.jpg"
+                                        alt="category3"></a>
+
+                </div>
+        </section>
+
+        <!-- CATEGORIES DISPLAY 3 -->
+        <section class="deepika" id="deepika">
+                <h1 class="brand_heading">Deepika Padukone outfits</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_deepika.html"><img src="../images/dp_1.jpg"
+                                        alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_deepika.html"><img src="../images/dp_2.jpg"
+                                        alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_deepika.html"><img src="../images/dp_3.jpg"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_deepika.html"><img src="../images/dp_4.jpg"
+                                        alt="category4"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_deepika.html"><img
+                                        src="https://www.masala.com/public/images/2020/01/21/download-(3).jpg"
+                                        alt="category5"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_deepika.html"><img
+                                        src="https://images.news18.com/ibnlive/uploads/2022/02/deepika-padukone-5-1.jpg"
+                                        alt="category4"></a>
+
+                </div>
+        </section>
+
+
+        <!-- CATEGORIES DISPLAY 4 -->
+        <!-- CATEGORIES DISPLAY 4 -->
+        <section class="priyanka" id="priyanka">
+                <h1 class="brand_heading">Priyanka Chopra Outfit</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_priyanka.html"><img src="../images/cp_1.jpg"
+                                        alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_priyanka.html"><img src="../images/cp_2.jpg"
+                                        alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_priyanka.html"><img src="../images/cp_3.jpg"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_priyanka.html"><img
+                                        src="https://hips.hearstapps.com/hmg-prod/images/priyanka-chopra-white-dress-1540821931.jpg?crop=1xw:1xh;center,top&resize=980:*"
+                                        alt="category4"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_priyanka.html"><img
+                                        src="https://fashionista.com/.image/t_share/MTgwMzE2MjY5NjU0ODQ0NTY2/priyanka-chopra-is-seen-wearing-vivienne-westwood-in-midtown-on-may-2-2018.jpg"
+                                        alt="category5"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_priyanka.html"><img
+                                        src="https://preview.redd.it/nmacc-gala-in-mumbai-april-2023-v0-rppr18zkdbra1.png?width=640&crop=smart&auto=webp&s=658178516a3d9505e5c1819548bef45fceddad00"
+                                        alt="category3"></a>
+
+                        <a href="../celebstyles pages/celebrity_outfit_page_priyanka.html"><img
+                                        src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1157536876-1-1564147144.jpg?crop=1xw:1xh;center,top&resize=980:*"
+                                        alt="category5"></a>
+
+
+                </div>
+        </section>
+
+
+
+        <!-- CATEGORIES DISPLAY 5 -->
+        <section class="alia" id="alia">
+                <h1 class="brand_heading">Alia Bhatt Outfit</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img src="../images/ab_1.jpg"
+                                        alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img src="../images/ab_2.jpg"
+                                        alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img src="../images/ab_3.jpg"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img src="../images/ab_4.jpg"
+                                        alt="category4"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img
+                                        src="https://rukminim2.flixcart.com/image/1100/1300/l3rmzrk0/sari/v/5/e/free-dr-s2-world-of-fashion-unstitched-original-imaget6dktjezskp.jpeg?q=90&crop=false"
+                                        alt="category5"></a>
+
+
+
+                </div>
+        </section>
+
+
+        <!-- CATEGORIES DISPLAY 6 -->
+        <section class="jahnvi" id="jahnvi">
+                <h1 class="brand_heading">Janhvi Kapoor Outfits</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_janhvi.html"><img src="../images/jk_1.jpg"
+                                        alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_janhvi.html"><img src="../images/jk_2.jpg"
+                                        alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_janhvi.html"><img src="../images/jk_3.jpg"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_janhvi.html"><img src="../images/jk_4.jpg"
+                                        alt="category4"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_janhvi.html"><img
+                                        src="https://filmfare.wwmindia.com/photogallery/2023/apr/maxiskirts91681218918.jpg"
+                                        alt="category5"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_janhvi.html"><img
+                                        src="https://s3.ap-south-1.amazonaws.com/media.ibc24.in/wp-content/uploads/2022/10/jhanvi-kapoor.jpg"
+                                        alt="category4"></a>
+
+
+                </div>
+        </section>
+
+
+
+        <!-- CATEGORIES DISPLAY 7 -->
+        <section class="katrina" id="katrina">
+                <h1 class="brand_heading">Katrina kaif Outfit</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img src="../images/kk_1.jpg"
+                                        alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img src="../images/kk_2.jpg"
+                                        alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img src="../images/kk_3.jpg"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img src="../images/kk_4.jpg"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img
+                                        src="https://i.ytimg.com/vi/RzJbic79KY8/oardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLBhYguAkYVEW7wDd_YW_pvJH1Rl4g"
+                                        alt="category4"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_alia.html"><img
+                                        src="https://i.ytimg.com/vi/hamxyvqDqzw/oardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLAbAysZpNGY4o9KipK4nx3EWoxqxg"
+                                        alt="category5"></a>
+
+
+
+                </div>
+        </section>
+
+
+
+        <!-- CATEGORIES DISPLAY 8 -->
+        <section class="khan" id="khan">
+                <h1 class="brand_heading">Shah Rukh Khan Outfit</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_shahrukh.html"><img
+                                        src="../images/srk_1.jpg" alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_shahrukh.html"><img
+                                        src="../images/srk_2.jpg" alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_shahrukh.html"><img
+                                        src="../images/srk_3.jpg" alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_shahrukh.html"><img
+                                        src="../images/srk_4.jpg" alt="category4"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_shahrukh.html"><img
+                                        src="https://hamaraphotos.com/albums300_2012/wpw-20170306/hpse_fullsize__1104365153_Shah%20Rukh%20Khan%20walk%20the%20ramp%20for%20Mijwan-Summer%202017%20Show%20on%205th%20March%202017%20%2823%29_58bd1095234e5.JPG"
+                                        alt="category5"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_shahrukh.html"><img
+                                        src="https://i.pinimg.com/736x/5c/21/f3/5c21f3b7349732ad429e27b4ccbb3d44.jpg"
+                                        alt="category3"></a>
+
+
+                </div>
+        </section>
+
+
+        <!-- CATEGORIES DISPLAY 9 -->
+        <section class="prabhas" id="prabhas">
+                <h1 class="brand_heading">Prabhas Outfit</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_prabhas.html"><img src="../images/p_1.jpg"
+                                        alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_prabhas.html"><img src="../images/p_2.jpg"
+                                        alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_prabhas.html"><img src="../images/p_3.jpg"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_prabhas.html"><img src="../images/p_4.jpg"
+                                        alt="category4"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_prabhas.html"><img
+                                        src="https://static.zoomnews.com/thumb/107632157/107632157.jpg?height=746&width=420&resizemode=76&imgsize=1317497"
+                                        alt="category5"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_prabhas.html"><img
+                                        src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2019/08/21/c84e4fa8d7c080b7e357e36c27cfdf61.jpg?quality=90"
+                                        alt="category3"></a>
+
+                </div>
+        </section>
+
+
+
+        <!-- CATEGORIES DISPLAY 10 -->
+        <section class="kapoor" id="kapoor">
+                <h1 class="brand_heading">Ranbir Kapoor Outfit</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_ranbir.html"><img
+                                        src="https://i.redd.it/ranbir-kapoor-in-tu-jhooti-mai-makkar-2023-v0-p2phlksbjgpa1.jpg?width=1170&format=pjpg&auto=webp&s=a90c2d61142bd8ce52de5c0c7c7b920cc361c1df"
+                                        alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_ranbir.html"><img
+                                        src="https://images.shaadisaga.com/shaadisaga_production/photos/pictures/002/996/285/new_medium/3.jpeg?1635851502"
+                                        alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_ranbir.html"><img
+                                        src="https://img.mensxp.com/media/content/2020/Feb/Ranbir-Kapoor-Shares-His-Style-Secrets-And-Tips-On-How-Men-Can-Dress-For-Different-Occasions-500-2_5e4fc8ed25c09.jpeg"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_ranbir.html"><img
+                                        src="https://images.shaadisaga.com/shaadisaga_production/photos/pictures/002/996/286/new_medium/4.jpg?1635851502"
+                                        alt="category4"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_ranbir.html"><img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzOpqn5r9diwRZgsnYvKGp6C_UqnU0-RGjIYgcMVBIKsCFAPzGVD9oVU83qoQjbnuU_2Q&usqp=CAU"
+                                        alt="category5"></a>
+
+
+                </div>
+        </section>
+
+
+
+        <!-- CATEGORIES DISPLAY 11 -->
+        <section class="varun" id="varun">
+                <h1 class="brand_heading">Varun Dhawan Outfit</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_varun.html"><img
+                                        src="https://i.pinimg.com/564x/f5/44/6c/f5446cf10ee55f71e2900332ba7f537f.jpg"
+                                        alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_varun.html"><img
+                                        src="https://media.gqindia.com/wp-content/uploads/2019/04/0453-440x486.jpg"
+                                        alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_varun.html"><img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkzi0DuXLbGniD-UnbLgehTtq8xD9dDsVCg5Pxnnz8L7R5vPHicZwnMqqbUuRl1GLEblg&usqp=CAU"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_varun.html"><img
+                                        src="https://qbik.in/cdn/shop/products/20221016224326_075A3597_600x.png?v=1710933325"
+                                        alt="category4"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_varun.html"><img
+                                        src="https://filmfare.wwmindia.com/photogallery/2019/apr/varundhawan131555156278.jpg"
+                                        alt="category4"></a>
+
+                </div>
+        </section>
+
+
+
+        <!-- CATEGORIES DISPLAY 12 -->
+        <section class="allu" id="allu">
+                <h1 class="brand_heading">Allu Arjun Outfit</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_allu.html"><img
+                                        src="https://pbs.twimg.com/media/FnTduzXaEAQKXyV.jpg:large" alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_allu.html"><img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-LAJFEQTkirWk2mvqpLDyKCU1mnnnc_IIXcEXdrP3D8aTLo-QMlw5vR5TjzybAtvadw&usqp=CAU"
+                                        alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_allu.html"><img
+                                        src="https://www.pinkvilla.com/images/2022-10/1665922958_allu-arjun-black-tuxedo.jpg"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_allu.html"><img
+                                        src="https://images.meesho.com/images/products/325363684/bgdhz_512.webp"
+                                        alt="category4"></a>
+
+                </div>
+        </section>
+
+        <!-- CATEGORIES DISPLAY 13 -->
+        <section class="sahid" id="sahid">
+                <h1 class="brand_heading">Shahid Kapoor Outfit</h1>
+                <div class="container builder">
+                        <a href="../celebstyles pages/celebrity_outfit_page_shahid.html"><img
+                                        src="https://www.newssamachar.com/wp-content/uploads/2023/02/cropped-ANI-20230222033346-640x853.jpg"
+                                        alt="category1"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_shahid.html"><img
+                                        src="https://www.millenniumpost.in/h-upload/2022/04/02/615607-shahid-kapoor-5.jpg"
+                                        alt="category2"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_shahid.html"><img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm610gFORobhFXqLzpmpHUDHunvle8E-XOUDpFh6vcfDhUVMOZ01o96Fqwx7XlmGlMHUg&usqp=CAU"
+                                        alt="category3"></a>
+                        <a href="../celebstyles pages/celebrity_outfit_page_shahid.html"><img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvINNuge3UK5eZzV1n0zYRbJQ6hfqiwhm5JICwteD4Xoi9oxoLfm_Viv6gHewPBlp94M&usqp=CAU"
+                                        alt="category4"></a>
+
+                </div>
+
+        </section>
+
+
+        <footer>
+                <section id="section_1">
+                        <div id="left">
+                                <div>
+                                        <h4>online shopping</h4>
+                                        <p>men</p>
+                                        <p>women</p>
+                                        <p>home & living</p>
+                                        <p>beauty</p>
+                                        <p>gift cards</p>
+                                        <p>myntra insider<span id="latest">New</span></p>
+                                </div>
+                                <div>
+                                        <h4>useful links</h4>
+                                        <p>men</p>
+                                        <p>faq</p>
+                                        <p>t&c</p>
+                                        <p>terms of use</p>
+                                        <p>track order</p>
+                                        <p>shipping</p>
+                                        <p>cancellation</p>
+                                        <p>returns</p>
+                                        <p>whitehat</p>
+                                        <p>blog</p>
+                                        <p>careers</p>
+                                        <p>privacy policy</p>
+                                        <p>site map</p>
+                                        <p>corporate information</p>
+                                </div>
+                                <div>
+                                        <h4>experience myntra app on mobile</h4>
+                                        <img src="https://bit.ly/3LluZ4L" alt="android">
+                                        <img src="https://bit.ly/3DmWQys" alt="ios">
+                                        <h4 id="social_connect">keep in touch</h4>
+                                        <div>
+                                                <i class="fa-brands fa-facebook-square"></i>
+                                                <i class="fa-brands fa-twitter-square"></i>
+                                                <i class="fa-brands fa-youtube"></i>
+                                                <i class="fa-brands fa-instagram"></i>
+                                        </div>
+                                </div>
+                        </div>
+                        <div id="right">
+                                <div>
+                                        <img src="https://bit.ly/3JPiL47" alt="original">
+                                        <p> <span>100% ORIGINAL</span> guarantee for all products at myntra.com</p>
+                                </div>
+                                <div>
+                                        <img src="https://bit.ly/3uBalH4" alt="return_policy">
+                                        <p><span>Return within 30days</span> of receiving your order</p>
+                                </div>
+                        </div>
+                </section>
+                <section id="section_2">
+                        <h4>popular searches</h4>
+                        <div></div>
+                </section>
+                <section id="section_3">
+                        <a href="">sherwani</a><a href="">track pants</a><a href="">blazzers</a><a href="">sweater</a><a
+                                href="">jeans</a><a href="">suit</a><a href="">trouser</a><a href="">shalwar</a><a
+                                href="">bracelets</a><a href="">sherwani</a><a href="">cargo</a><a href="">shirt</a><a
+                                href="">sherwani</a><a href="">shelwar</a><a href="">Bracelets</a><a
+                                href="">sherwani</a><a href="">blazzers</a><a href="">sherwani</a><a
+                                href="">bracelets</a><a href="">rings</a><a href="">blazzers</a><a
+                                href="">sherwani</a><a href="">sherwani</a><a href="">sherwani</a><a
+                                href="">blazzers</a><a href="">blazzers</a><a href="">blazzers</a><a
+                                href="">shelwar</a><a href="">shalwar</a><a href="">jeans</a>
+                </section>
+                <section id="section_4">
+                        <p>In case of any concern <a href="#"> contact us</a></p>
+                        <p>&#169; 2022 www.myntra.com. All rights reserved.</p>
+                </section>
+                <hr>
+                <section id="section_5">
+                        <h4>celebstyles at myntra: shop the look</h4>
+                        <p>At Myntra, we bring you the latest styles worn by your favorite celebrities. Explore and shop
+                                their
+                                iconic looks effortlessly.</p>
+                </section>
+        </footer>
+
+
+        <script src="../Common Files/celebstyles.js"></script>
+        <script src="../Common Files/headerMenu.js"></script>
+        <script src="../Common Files/hyperlinks.js"></script>
+</body>
+
+</html>
